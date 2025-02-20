@@ -53,7 +53,7 @@ There is also a managed services provider (MSP) and a managed security services 
 | **BC/DR & Projects** |
 | 23 | **Disaster Recovery / Business Continuity** | A | R (Owns Plans) | R (Executes Tests) | C (Validates Security) |
 | 23a | **Backup & Recovery Ownership** | I | C | A (Schedules, Verifies) | C (Advises) |
-| **BC/DR & Projects** |
+| **Projects** |
 | 24 | **Infrastructure Project Work** | I | C | A (Executes, Separate Contract or "Bucket of Hours", Incl. End User Communications/Training, When Applicable) | C (Security Input) |
 | 24a | **Cybersecurity Project Work** | I | C | C (Operations Input) | A (Executes, Separate Contract or "Bucket of Hours", Incl. End User Communications/Training, When Applicable) |
 | **Architecture** |
