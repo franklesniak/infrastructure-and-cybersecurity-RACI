@@ -50,7 +50,7 @@ There is also a managed services provider (MSP) and a managed security services 
 | 20 | **L0/L1/L2 Service Desk (Remote Support)** | I | C | A (Hands-on, incl. OT issue intake) | I |
 | 21 | **L3 SMEs (Remote Support)** | I | C | A (Hands-on) | C (Security Support) |
 | 22 | **On-Site Support (Field Services)** | I | C | A (Hands-on) | I |
-| **BC/DR & Projects** |
+| **BC/DR & Backup** |
 | 23 | **Disaster Recovery / Business Continuity** | A | R (Owns Plans) | R (Executes Tests) | C (Validates Security) |
 | 23a | **Backup & Recovery Ownership** | I | C | A (Schedules, Verifies) | C (Advises) |
 | **Projects** |
