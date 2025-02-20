@@ -48,7 +48,7 @@ There is also a managed services provider (MSP) and a managed security services 
 | 19 | **Vulnerability Management (Scanning & Remediation)** | I | C | R (Fixes) | A (Scans, Recommends) |
 | 20 | **Performance & Security Reporting** | I | R (Reviews) | A (Ops Reports) | A (Security Reports) |
 | 21 | **Security Awareness Training** | A | C (Approves Plant Staff Training Needs) | R (Configures Email Platform to Allow Phishing Tests) | A & R (Designs, Delivers, Tracks) |
-| **Service Desk / Support** | --- | --- | --- | --- | --- |
+| **Service Desk/Support** | --- | --- | --- | --- | --- |
 | 22 | **L0/L1/L2 Service Desk (Remote Support)** | I | C | A (Hands-on, incl. OT issue intake) | I |
 | 23 | **L3 SMEs (Remote Support)** | I | C | A (Hands-on) | C (Security Support) |
 | 24 | **On-Site Support (Field Services)** | I | C | A (Hands-on) | I |
