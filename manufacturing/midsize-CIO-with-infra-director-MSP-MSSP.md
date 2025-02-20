@@ -64,7 +64,7 @@ There is also a managed services provider (MSP) and a managed security services 
 | 28 | **Monitoring & Availability** | I | C | A (Proactive) | C (Security Monitoring) |
 | **Coordination** |
 | 29 | **MSP-MSSP Coordination** | I | C (Ensures Alignment) | A (Ops Lead) | R (Security Lead) |
-| 30 | Vendor Support Coordination | I | R (Escalates Unresolved) | A (Ops Vendors) | A (Security Vendors)
+| 30 | **Vendor Support Coordination** | I | R (Escalates Unresolved) | A (Ops Vendors) | A (Security Vendors)
 | 31 | **Contingency for Director Absence** | I | I | A (Ops Lead) | R (Security Lead) |
 
 ### Severity Levels
