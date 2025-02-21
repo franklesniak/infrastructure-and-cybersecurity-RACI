@@ -30,8 +30,9 @@ There is also a managed services provider (MSP) and a managed security services 
 | 9 | **Patch Management & Deployment** | I | C (Approves OT Patching Windows) | A (Deploys) | C (Prioritizes Vulnerabilities) |
 | 10 | **Endpoint Management** (Intune - Workstations/Mobile + Windows Autopilot) | I | C (Policy Oversight) | A (Hands-on) | I |
 | 11 | **Microsoft 365 Administration** | I | C (Approves Configs) | A & R (Hands-on) | I |
-| 11a | **Telephony (Teams Voice, incl. AudioCodes ATAs, Neat Devices)** | I | C (Approves Configs, Analyzes Plant/OT Needs) | A & R (Config, Ops, QoS) | C (Security Input) |
-| 12 | **Defender for Office 365** (Email, Phishing, etc.) | I | C | R (Configures) | A (Threat Intel, Recommends Adjustments) |
+| 11a | **Telephony** (Teams Voice, incl. AudioCodes ATAs, Neat Devices) | I | C (Approves Configs, Analyzes Plant/OT Needs) | A & R (Config, Ops, QoS) | C (Security Input) |
+| 12 | **Defender for Office 365** (Email Hygiene, Anti-Phishing, etc.) - **Policy Configuration** | I | C (Approves Policies) | A (Configures) | C (Recommends Adjustments) |
+| 12a | **Defender for Office 365** (Email Hygiene, Anti-Phishing, etc.) - **Monitoring & MDR** | I | C (Sev 1-2 Alerts Only) | R (Performs Containment per MSSP) | A (Monitors, Alerts, Initial Triage & Containment) |
 | **OT Operations** | --- | --- | --- | --- | --- |
 | 13 | **OT System Management** | I | R (Owns OT Policy) | A (Manages IT-OT Segmentation) | C (Security Input) |
 | 13a | **OT Network Segmentation** | I | R (Approves Design) | A (Implements Changes) | C (Security Validation) |
@@ -42,10 +43,12 @@ There is also a managed services provider (MSP) and a managed security services 
 | **Security & Monitoring** | --- | --- | --- | --- | --- |
 | 16 | **Defender for Endpoint** (AV/EDR) | I | C | R (Deploys/Config Changes) | A (Monitoring & Threat Analysis) |
 | 16a | **Defender for Cloud Apps (CASB) & Identity (UEBA)** | I | C (Reviews) | R (Config Changes) | A (Monitoring & Threat Analysis) |
-| 17 | **Security Monitoring (SIEM, Logs)** | I | C | R (Configures Log Forwarding) | A (Monitoring, Hunting via Azure Sentinel) |
+| 17 | **Security Monitoring (SIEM, Logs)** | I | C (Reviews SIEM Config & Major Alerts) | R (Configures Log Forwarding) | A (Monitoring, Hunting via Azure Sentinel) |
+| 17a | **Network Security Monitoring (Proprietary Tool)** | I | C (Sev 1-2 Alerts Only) | R (Configures Devices per MSSP Guidance) | A (Monitors, Alerts, Recommends Network Adjustments) |
+| 17b | **OT Security Monitoring (Nozomi/Claroty)** | I | C (Sev 1-2 Alerts Only) | R (Implements Immediate OT Fixes per MSSP) | A (Monitors, Alerts, Recommends OT Adjustments) |
 | 18 | **Incident Response (Triage & Remediation)** | C (Sev 1-2) | R (OT Escalation) | A (Sev 3-4 Triage) | A (Forensics, Sev 1-2) |
 | 18a | **Major Incident Coordination & Communication** | A | R (Stakeholders) | C (Ops Coordination) | C (Security Guidance) |
-| 19 | **Vulnerability Management (Scanning & Remediation)** | I | C | R (Fixes) | A (Scans, Recommends) |
+| 19 | **Vulnerability Management (Scanning & Remediation)** | I | C (Approves OT Remediation Plans) | A (Scans, Remediates per MSSP Priorities) | R (Ingests Scans into SIEM, Prioritizes with Threat Intel) |
 | 20 | **Performance & Security Reporting** | I | R (Reviews) | A (Ops Reports) | A (Security Reports) |
 | 21 | **Security Awareness Training** | A | C (Approves Plant Staff Training Needs) | R (Configures Email Platform to Allow Phishing Tests) | A & R (Designs, Delivers, Tracks) |
 | **Service Desk/Support** | --- | --- | --- | --- | --- |
