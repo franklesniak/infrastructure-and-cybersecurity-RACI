@@ -78,7 +78,7 @@ There is also a managed services provider (MSP) and a managed security services 
 
 Note: as a placeholder, these are definitions of severity levels:
 
-- A Severity 1 (Sev 1) incident, as used above, is a major outage that stops production of materials. For example, it might be a plant-wide outage
-- Sev 2 might be a critical app failure (e.g., ERP)
+- A Severity 1 (Sev 1) incident, as used above, is a significant outage that stops the production or shipment of materials. For example, it might be a plant-wide outage.
+- Sev 2 might be a critical app failure (e.g., ERP) - but one where business can continue for some time using offline/manual processes.
 - Sev 3 is meant to be an incident affecting a noticeable portion of users or systems (e.g., 10-25% of workstations, a single production line, or a less-critical application), causing moderate disruption but not halting core manufacturing operations.
 - Sev 4 might be a single-user issue.
