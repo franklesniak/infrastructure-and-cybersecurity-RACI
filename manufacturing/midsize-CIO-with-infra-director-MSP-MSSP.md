@@ -69,7 +69,7 @@ There is also a managed services provider (MSP) and a managed security services 
 | 29 | **Configuration & Administration (General)** | I | R (OT Config Oversight) | A (Hands-on) | R (Security Input) |
 | 30 | **Monitoring & Availability** | I | R (OT Availability Oversight) | A (Proactive) | R (Security Monitoring) |
 | **Coordination** | --- | --- | --- | --- | --- |
-| 31 | **MSP-MSSP Coordination** | C (Strategic Alignment) | R (Mediates MSP-MSSP and OT Alignment) | A (Ops Lead) | R (Security Lead) |
+| 31 | **MSP-MSSP Coordination** | C (Strategic Alignment) | R (Mediates OT Alignment) | A (Ops Lead) | R (Security Lead) |
 | 32 | **Vendor Support Coordination** | I | A (Escalates Unresolved) | R (Ops Vendors) | R (Security Vendors) |
 | 33 | **Contingency for Director Absence** | A (Oversees Contingency) | C (Defines Contingency Plan) | R (Ops Lead) | R (Security Lead) |
 | 34 | **OT-IT-Security Conflict Resolution** | C (Strategic Oversight) | A (Resolves Disputes) | R (Ops Lead) | R (Security Lead) |
